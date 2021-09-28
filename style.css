@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+     
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:first-child :before {
+    content: '🦸';
+}
+nav a:last-child:before {
+    content: 'Ⓜ️';
+}
+nav a:nth-child(2):before {
+    content: '🥺';
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.links ul li {
+    flex-wrap: wrap;
+    
+}
